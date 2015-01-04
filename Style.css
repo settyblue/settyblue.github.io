@@ -17,7 +17,7 @@ body {
 	font-family: source-sans-pro;
 	font-style: normal;
 	font-weight: 200;
-	background-image: url(../../Downloads/Creating%20a%20First%20Website%20in%20Dreamweaver%20CC%202014%20%7BAceMerlin%7D/Exercise%20Files/Ex_Files_Cr8_First_DWCC2014/Exercise%20Files/Assets/Other/Design-assets/bkgdHome.jpg);
+	background-image: url(images/bkgdHome.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
