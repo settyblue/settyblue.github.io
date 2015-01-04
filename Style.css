@@ -1,0 +1,87 @@
+@charset "utf-8";
+h1  {
+	font-family: lobster;
+	font-style: normal;
+	font-weight: 400;
+	font-size: x-large;
+	text-shadow: 2px 2px #FFFFFF;
+}
+h2 {
+	font-family: lobster;
+	font-style: normal;
+	font-weight: 400;
+	/* [disabled]text-shadow: 0px 0px; */
+	text-align: center;
+}
+body {
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 200;
+	background-image: url(../../Downloads/Creating%20a%20First%20Website%20in%20Dreamweaver%20CC%202014%20%7BAceMerlin%7D/Exercise%20Files/Ex_Files_Cr8_First_DWCC2014/Exercise%20Files/Assets/Other/Design-assets/bkgdHome.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+footer {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: x-small;
+	text-align: center;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	clear: both;
+}
+nav   {
+	color: #FFFFFF;
+	background-color: #000000;
+	text-align: center;
+	font-weight: 400;
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.sectionLeft {
+	width: 35%;
+	margin-left: 5%;
+	margin-right: 2.5%;
+	float: left;
+}
+.sectionRight {
+	width: 50%;
+	margin-left: 2.5%;
+	margin-right: 5%;
+	float: right;
+	background-color: #FFFFFF;
+	/* [disabled]border-right-width: medium; */
+	border-left-width: thin;
+	border-top: 10px solid #000000;
+	border-bottom: 10px solid #000000;
+	margin-bottom: 5%;
+	padding-left: 0px;
+	left: 0px;
+}
+header {
+	text-align: center;
+	clear: both;
+}
+.sectionRight {
+	background-color: #FCDAF3;
+}
+.sectionRight p {
+	padding-left: 2px;
+	text-align: center;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+}
