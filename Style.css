@@ -91,37 +91,64 @@ a   {
 }
 .navHome {
 	margin-left: 2%;
-    margin-right: 2%;
-    padding-top: 70px;
-    background-image: url(images/navHome.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0% 20px;
+	margin-right: 2%;
+	padding-top: 70px;
+	background-image: url(images/navHome.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 0% 20px;
+	-webkit-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
 }
 .navAbout {
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-top: 70px;
-    background-image: url(images/navAbout.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0% 20px;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 70px;
+	background-image: url(images/navAbout.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 0% 20px;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 .navBlog {
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-top: 70px;
-    background-image: url(images/navPort.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0% 20px;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 70px;
+	background-image: url(images/navBlog.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 0% 30px;
+	zoom: 1;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 .navContact {
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-top: 70px;
-    background-image: url(images/navContact.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0% 20px;
+	margin-left: 2%;
+	margin-right: 2%;	
+	padding-top: 70px;
+	background-image: url(images/navContact.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 0% 20px;
+	zoom: 0.95;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.navHome:hover {
+	background-position: 0px 0px;
+	color: #FFFFFF;
+}
+.navAbout:hover {
+	background-position: 0px 0px;
+}
+.navBlog:hover {
+	background-position: 0px 0px;
+}
+.navContact:hover {
+	background-position: 0px 0px;
 }
