@@ -13,6 +13,9 @@ h2 {
 	/* [disabled]text-shadow: 0px 0px; */
 	text-align: center;
 }
+p {
+	font-size:16px;
+}
 body {
 	font-family: source-sans-pro;
 	font-style: normal;
@@ -97,6 +100,8 @@ header {
 	padding-top: 2px;
 	padding-right: 2px;
 	padding-bottom: 2px;
+	font-size:18px;
+	font-weight:900;
 }
 a   {
 	color: #FFFFFF;
@@ -171,7 +176,7 @@ a   {
 	background-position: 0px 0px;
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:750px){
 .sectionFull {
 	width:auto;
 	margin-left: 5%;
