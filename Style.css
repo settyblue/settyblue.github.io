@@ -52,7 +52,7 @@ nav   {
 	padding-left: 10px;
 }
 .sectionLeft {
-	width: 35%;
+	width: 30%;
 	margin-left: 5%;
 	margin-right: 2.5%;
 	float: left;
@@ -68,7 +68,22 @@ nav   {
 	border-top: 10px solid #000000;
 	border-bottom: 10px solid #000000;
 	margin-bottom: 5%;
-	padding-left: 0px;
+	padding-left: 5px;
+	left: 0px;
+}
+.sectionFull {
+	width: 60%;
+	margin-left: 2.5%;
+	margin-right: 5%;
+	float: right;
+	background-color: #FFFFFF;
+	/* [disabled]border-right-width: medium; */
+	border-top: 10px solid #000000;
+	border-bottom: 10px solid #000000;
+	border-left: 10px solid #ffffff;
+	border-right: 10px solid #ffffff;
+	margin-bottom: 5%;
+	padding-left: 5px;
 	left: 0px;
 }
 header {
@@ -139,6 +154,11 @@ a   {
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
+.blogImage {
+	margin-left: 20px;
+	margin-right: 20px;
+	vertical-align:middle;
+}
 .navHome:hover {
 	background-position: 0px 0px;
 	color: #FFFFFF;
@@ -151,4 +171,27 @@ a   {
 }
 .navContact:hover {
 	background-position: 0px 0px;
+}
+
+@media screen and (max-width:750px){
+.sectionFull {
+	width: 90%;
+	margin-left: 2.5%;
+	margin-right: 5%;
+	float: right;
+	background-color: #FFFFFF;
+	/* [disabled]border-right-width: medium; */
+	border-top: 10px solid #000000;
+	border-bottom: 10px solid #000000;
+	border-left: 10px solid #ffffff;
+	border-right: 10px solid #ffffff;
+	margin-bottom: 5%;
+	padding-left: 0px;
+	left: 0px;
+}
+img{
+	max-width:100%;
+	max-height:100%;
+}
+
 }
